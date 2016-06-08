@@ -4,7 +4,7 @@ A cross-platform (iOS / Android), full-featured in-app web browser component for
 ## Install
 
 ```sh
-npm i react-native-webbrowser --save
+npm i react-native-mobile-browser --save
 ```
 
 ## Usage
