@@ -1,6 +1,8 @@
-# react-native-webbrowser
+# react-native-mobile-browser
+This project was forked from react-native-webbrowser but with ability to run on latest RN.
+
 A cross-platform (iOS / Android), full-featured in-app web browser component for React Native that is highly customizable. Currently you can hide the address-, status- and toolbar. Additionally the foreground and background colors can be modified.
- 
+
 ## Install
 
 ```sh
@@ -17,7 +19,7 @@ class SampleApp extends Component {
     render() {
         return (
             <View style={{paddingTop:20, flex:1}}>
-            
+
                 <Webbrowser
                     url="https://your-url.com"
                     hideHomeButton={false}
@@ -27,7 +29,7 @@ class SampleApp extends Component {
                     foregroundColor={'#efefef'}
                     backgroundColor={'#333'}
                 />
-                
+
             </View>
         );
     }
@@ -41,7 +43,7 @@ class SampleApp extends Component {
 * `hideStatusBar - bool` optional, hides the status bar / site title
 * `hideToolbar - bool` optional, hides the toolbar (nav bar)
 * `hideHomeButton - bool` optional, hides just the home button from the toolbar
-* `hideActivityIndicator - bool`optional, hides the activity indicator (loading) overlay 
+* `hideActivityIndicator - bool`optional, hides the activity indicator (loading) overlay
 * `foregroundColor - string` optional, sets the forground color of text and icon elements
 * `backgroundColor - string` optional, sets the background color
 * `onNavigationStateChange - function(navState)` optional, url change callback
