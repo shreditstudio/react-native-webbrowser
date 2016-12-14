@@ -1,10 +1,10 @@
 'use strict';
 
-import React from 'react-native';
-var {
-    View,
-    Image
-    } = React;
+import React, {Component} from 'react';
+import {
+  View,
+  Image
+} from 'react-native';
 
 import BaseComponent from './BaseComponent'
 import Button from './Button'
