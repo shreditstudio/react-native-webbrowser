@@ -140,7 +140,7 @@ class Webbrowser extends BaseComponent {
                     scalesPageToFit={this.state.scalesPageToFit}
                 />
                 {this.renderToolbar()}
-                <Spinner visible={this.state.loading} />
+                <Spinner visible={!this.props.hideActivityIndicator && this.state.loading} />
             </View>
         );
     }
